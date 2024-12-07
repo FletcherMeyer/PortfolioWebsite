@@ -93,12 +93,14 @@ function oAuth() {
     img5.style.visibility = "hidden"
 }
 
-function malwareAnalysis() {
+function resume() {
     document.getElementById("updatingInfo").innerText = 
-    "As a part of UW-Stout's Honors College, I am tasked with working on a personal project";
+    "Fletcher Meyer's Resume";
 
     let img1 = document.getElementById("updatingImg1")
-    img1.style.visibility = "hidden"
+    img1.src = "Images/resume.png";
+    img1.style.width = '800px'
+    img1.style.visibility = "visible"
     let img2 = document.getElementById("updatingImg2")
     img2.style.visibility = "hidden"
     let img3 = document.getElementById("updatingImg3")
