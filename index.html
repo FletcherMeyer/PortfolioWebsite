@@ -5,63 +5,77 @@
 </head>
 
 <body>
-  <h1>Fletcher Meyer's Technical Portfolio</h1>
-  <p>Hey! My name is Fletcher Meyer and I am a student studying Computer Science and Cyber Security at the University of
-    Wisconsin-Stout!</p>
-  <p>This website contains some of the work I've done over the years and how to reach out to me.</p>
+  <button class="brutalist-button">
+    <div class="button-text">
+      <span>Fletcher Meyer's</span>
+      <span>Technical Portfolio</span>
+    </div>
+  </button>
 
-  <!-- Discord Bot -->
-  <div class="row">
-    <h1>Node.js Discord Web Client</h1>
-    <p>Between February 2020 and May 2022 I developed and managed a Discord Web Client (Bot) running in over 4,000+
-      user's
-      servers.
-      A repository containing the basis for a Discord Bot in Node.js are open source on my GitHub.</p>
+  <p class="coolP">Hey! My name is Fletcher Meyer and I am a student studying Computer Science and Cyber Security at the University of
+    Wisconsin-Stout!
+    This website contains some of the work I've done over the years and how to reach out to me.</p>
+
+    <p class="coolP">Grade: Sophomore</p>
+    <p class="coolP">Email: meyerfletcher@gmail.com</p>
+    <p class="coolP">Cellphone: (920) 574-7120</p>
+
+  <div class="radio-inputs">
+    <label onclick="discord()">
+      <input class="radio-input" type="radio" name="engine">
+      <span class="radio-tile">
+        <span class="radio-icon">
+        </span>
+        <span class="radio-label">Discord Web App</span>
+      </span>
+    </label>
+
+    <label onclick="toDoList()">
+      <input checked="" class="radio-input" type="radio" name="engine">
+      <span class="radio-tile">
+        <span class="radio-icon">
+        </span>
+        <span class="radio-label">To Do List</span>
+      </span>
+    </label>
+
+    <label onclick="cyberDefense()">
+      <input class="radio-input" type="radio" name="engine">
+      <span class="radio-tile">
+        <span class="radio-icon">
+        </span>
+        <span class="radio-label">Cyber Defense</span>
+      </span>
+    </label>
+
+    <label  onclick="oAuth()">
+      <input class="radio-input" type="radio" name="engine">
+      <span class="radio-tile">
+        <span class="radio-icon">
+        </span>
+        <span class="radio-label">OAuth Security</span>
+      </span>
+    </label>
+    
   </div>
 
-
-  <div class="row">
-    <div class="column">
-      <img src="https://github.com/FletcherMeyer/PortfolioWebsite/blob/main/Images/RedditAPI.png?raw=true"
-        style="width:100%" alt="Reddit API">
-    </div>
-    <div class="column">
-      <img src="https://github.com/FletcherMeyer/PortfolioWebsite/blob/main/Images/Pets.png?raw=true" alt="Pets"
-        style="width:100%">
-    </div>
-    <div class="column">
-      <img src="https://github.com/FletcherMeyer/PortfolioWebsite/blob/main/Images/Minesweeper.png?raw=true"
-        style="width:100%" alt="Minesweeper">
-    </div>
-    <div class="column">
-      <img src="https://github.com/FletcherMeyer/PortfolioWebsite/blob/main/Images/Sharding.png?raw=true"
-        style="width:100%" alt="Sharding">
-    </div>
-    <div class="column">
-      <img src="https://github.com/FletcherMeyer/PortfolioWebsite/blob/main/Images/SlidePuzzle.png?raw=true"
-        style="width:100%" alt="Slide Puzzle">
-    </div>
-    <div class="column">
-      <img src="https://github.com/FletcherMeyer/PortfolioWebsite/blob/main/Images/Solitaire.png?raw=true"
-        style="width:100%" alt="Solitaire">
-    </div>
+  <div class="coolP" id="updatingDiv">
+    <p id="updatingInfo">
+  </p>
   </div>
+  <br>
 
-
-  <!-- To Do List -->
-  <div class="row">
-    <h1>To Do List Website</h1>
-    <p>To do list programmed in vanilla HTML and JS. Uses Cookies to save user's data. Drag and drop interface.
-      A repository containing the code for this project are available on my GitHub.
-    </p>
-  </div>
-
-  <div class="row">
-
-    <img class="image" src="https://github.com/FletcherMeyer/PortfolioWebsite/blob/main/Images/ToDoList.png?raw=true"
-      style="width:75%" alt="Solitaire">
-  </div>
+  <img class="coolI" id="updatingImg1" src="" alt="">
+  <br>
+  <img class="coolI" id="updatingImg2" src="" alt="">
+  <br>
+  <img class="coolI" id="updatingImg3" src="" alt="">
+  <br>
+  <img class="coolI" id="updatingImg4" src="" alt="">
+  <br>
+  <img class="coolI" id="updatingImg5" src="" alt="">
 
 </body>
+<script src="source.js"></script> 
 
 </HTML>
